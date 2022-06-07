@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenidxs a MercadoLiebre</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/register.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+            <div class="logo_form">
+                <div class="logo">
+                    <img src="images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
+                </div>
+                <div class="form imput_submit" action="#" method="GET">
+                    <form action="">
+                        <input type="text" value="buscar productos">
+                    </form>
+                    <div class="submit"><i class="fa fa-search"></i></div>
+                </div>
+            </div>
+            <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        </div>
+        <nav class="navegador">
+            <div class="Offer">
+                <ul>
+                    <li><a class="item" href="#">Ofertas</a></li>
+                    <li><a class="item" href="#">Tiendas Oficiales</a></li>
+                    <li><a class="item" href="#">Vender</a></li>
+                    <li><a class="item" href="#">Ayuda</a></li>
+                </ul>
+            </div>
+            <div class="regis">
+                <ul>
+                    <li><a class="item" href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                    <li><a class="item" href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                    <li><a class="item" href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="burger-menu">
+            <i class="fa fa-bars burger"></i>
+        </div>
+        <section class="banner">
+            <img src="images/img-home-banner.jpg" alt="Banner de ofertas">
+        </section>
+    </header>
+    <br>
+    <main class="principal">
+
+        <form action="">
+
+            <input class="campo" type="text" placeholder="Nombre y apellido">
+            <br>
+
+            <input class="campo" type="text" placeholder="Nombre de usuario">
+            <br>
+
+            <input class="campo" type="email" placeholder="E-mail">
+            <br>
+
+
+
+
+            <div>
+                <label>Fecha de nacimiento</label><br>
+
+                <input class="campo" type="date">
+            </div>
+            <br>
+
+            <div>
+
+                <input class="campo" type="text" placeholder="Domicilio">
+            </div>
+            <br>
+
+            <label>Perfil de usuario</label>
+            <div class="campo"><input type="radio"><label for="">Comprador</label>
+                <input type="radio"><label for="">Vendedor</label>
+            </div>
+            <br>
+
+            <div>
+                <label>Categorías de interés</label><br><br>
+                <input type="checkbox" name="Electro" value="Electro" class="interes">
+                <label for="Electro"> Electro</label><br>
+                <input type="checkbox" name="Moda" value="Moda" class="interes">
+                <label for="Moda"> Moda</label><br>
+                <input type="checkbox" name="Hogar" value="Hogar" class="interes">
+                <label for="Hogar"> Hogar</label><br>
+                <input type="checkbox" name="Jugueteria" value="Jugueteria" class="interes">
+                <label for="Jugueteria"> Jugueteria</label><br>
+                <input type="checkbox" name="VidaSana" value="VidaSana" class="interes">
+                <label for="VidaSana"> Vida Sana</label><br>
+            </div>
+
+            <div class="foto">
+                <label>Foto de usuario</label><br>
+                <br>
+                <input type="file">
+            </div>
+
+            <div class="foto">
+                <label>Contraseña</label><br>
+                <input class="campo" type="password">
+
+                <div>
+
+                    <label>Confirmar Contraseña</label><br>
+                    <input class="campo" type="password">
+                </div>
+            </div>
+            <div>
+                <button class="button" type="submit">Enviar</button>
+                <button class="button" type="reset">Borrar</button>
+            </div>
+
+
+
+        </form>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
